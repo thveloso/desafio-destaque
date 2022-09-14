@@ -1,0 +1,67 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(163, 163, 163);
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(144, 145, 143);
+    padding: 1em;
+}
+
+form {
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+}
+
+form button:hover {
+    background-color: whitesmoke;
+    color: rgb(109, 109, 109);
+}
+
+.hidden{
+    display: none;
+}
+
+.div1 {
+    display: flex;  
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.block{
+    background-color: rgb(185, 183, 183);
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    min-width: 45%;
+    max-width: 45%;
+    min-height: 20%;
+    max-height: 20%;
+
+}
